@@ -1,0 +1,66 @@
+:root{
+    --offcanvas-width: 230px;
+  }
+  .sidebar-nav{
+    width: var(--offcanvas-width);
+  }
+  @media(min-width:992px){
+    body{
+      overflow: auto !important;
+    }
+    .offcanvas-backdrop::before{
+      display: none;
+    }
+    .sidebar-nav{
+      transform: none;
+      visibility: visible !important;
+    }
+  }
+  .topbar{
+    position: absolute;
+    transform: scale(.7);
+    transform-origin: top right;
+    right: .25rem;
+    margin-top: -.25rem;
+    width: 121%;
+    height: 6rem;
+    text-align: center;
+  }
+  .student{
+    margin-top: 50px;
+    background-image: linear-gradient(#6890a487,#83a190,#b3ccc9);
+    position: absolute;
+    top: 70px;
+    left: 600px;
+  }
+  .teacher{
+    margin-top: 50px;
+    background-image: linear-gradient(#3c713187,#a6b7ed,#b3ccc9);
+    position: absolute;
+    top: 70px;
+    left: 600px;
+  }
+  .addstudent{
+    position: absolute;
+    top: 70px;
+    left: 600px;
+  }
+  .addteacher{
+    position: absolute;
+    top: 70px;
+    left: 600px;
+  }
+  .editstudent{
+    position: absolute;
+    top: 70px;
+    left: 600px;
+  }
+  .home{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+  }
+  .image {
+    width: 49%;
+  }
+ 
